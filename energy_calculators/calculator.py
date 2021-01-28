@@ -1,5 +1,6 @@
 import numpy as np
-from dual_gradient.energy import DualGradient
+from energy_calculators.dual_gradient.energy import DualGradient
+
 
 class EnergyCalculator:
     def __init__(self,rgb_matrix,method):

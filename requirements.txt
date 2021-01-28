@@ -1,0 +1,13 @@
+astroid==2.4.2
+autopep8==1.5.4
+isort==5.7.0
+lazy-object-proxy==1.4.3
+mccabe==0.6.1
+numpy==1.19.5
+Pillow==8.1.0
+pycodestyle==2.6.0
+pylint==2.6.0
+six==1.15.0
+-e git+https://github.com/dxghost/squeeze.git@bce62ecea7c97ace330c8961a9bb7eb0bd9441df#egg=squeeze
+toml==0.10.2
+wrapt==1.12.1
