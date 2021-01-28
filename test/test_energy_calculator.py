@@ -1,4 +1,4 @@
-from calculator import EnergyCalculator
+from energy_calculators.calculator import EnergyCalculator
 import unittest
 import math
 
