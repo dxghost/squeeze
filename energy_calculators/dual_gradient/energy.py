@@ -4,6 +4,7 @@ import math
 
 
 class DualGradient(EnergyFactory):
+    name = "dg"
     def __init__(self):
         pass
 
