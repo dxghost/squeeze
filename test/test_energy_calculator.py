@@ -12,10 +12,6 @@ class TestCalculator(unittest.TestCase):
         ]
         calc = EnergyCalculator(self.test_data, "dg")
         result = calc.get_energy()
-        print("test data for dual_gradient:")
-        print(self.test_data)
-        print("\nresult:")
-        print(result)
         self.assertEqual(result[1][1],math.sqrt(52024))
 
 if __name__ == "__main__":
