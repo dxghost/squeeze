@@ -26,4 +26,11 @@ class DualGradient(EnergyFactory):
 
                 energy[i][j] = math.sqrt(int(deltax+deltay))
 
+        # Normalize image if we don't do that it always chooses first column as seam
+        for i in range(0,y_len):
+            energy[i,0]=energy[i,1]
+            energy[i,x_len-1]=energy[i,x_len-2]
+        for j in range(x_len):
+            energy[0,j]=energy[1,j]
+            energy[y_len-1,j]=energy[y_len-2,j]
         return energy
