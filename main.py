@@ -72,9 +72,9 @@ if __name__ == "__main__":
     parser.add_argument("-i", metavar='i', type=str,
                         help="image path", required=True)
     parser.add_argument(
-        '-c', metavar='i', type=int, help="-c <int> columns to remove, default: 1", default=0)
+        '-c', metavar='i', type=int, help="-c <int> columns to remove, default: 0", default=0)
     parser.add_argument(
-        '-r', metavar='i', type=int, help="-r <int> rows to remove, default: 1", default=0)
+        '-r', metavar='i', type=int, help="-r <int> rows to remove, default: 0", default=0)
     parser.add_argument('-v', metavar='v', type=bool,
                         help="-v store each step seam into output directory, default: False",
                         default=False, action=argparse.BooleanOptionalAction)
